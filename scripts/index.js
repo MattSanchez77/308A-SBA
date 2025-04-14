@@ -44,6 +44,13 @@ function displayBooks(books) {
   });
 }
 
+
+document.body.style.backgroundImage = "url('./images/pexels-mccutcheon-1148399.jpg')";
+document.body.style.backgroundSize = "cover";
+document.body.style.backgroundPosition = "center";
+document.body.style.backgroundRepeat = "no-repeat";
+
+
 form.addEventListener('submit', async (e) => {
   e.preventDefault();
   const query = input.value.trim();
